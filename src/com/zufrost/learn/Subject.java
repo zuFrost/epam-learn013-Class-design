@@ -4,6 +4,9 @@ public class Subject {
     private long subjectId;
     private String name;
 
+    public Subject() {
+    }
+
     public Subject(long subjectId, String name) {
         this.subjectId = subjectId;
         this.name = name;
